@@ -1,0 +1,225 @@
+
+body{
+    /* background-color: #fef; */
+    font-family: Verdana, sans-serif; 
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav{
+    width: 100%;
+    height: 12vh;
+    background-color: #ff7101    ;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+.logo{
+    width: 30%;
+    padding-left: 100px;
+    
+}
+.menu{
+    width: 40%;
+    height: 100%;
+    
+}
+.menu .nav-items{
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    
+}
+.right{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right i{
+    font-size: 24px; color: white;
+    margin-right: 10px;
+}
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 20px auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+/* About Us Section Styling */
+
+.aboutus{
+    width: 100%;
+    text-align: center;
+    background-color: #e6e6e6;
+    height: 400px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin: 25px 30px 25px 25px;
+}
+.col{
+    background-color: rgb(195, 210, 224);
+    width: 20%;
+    height: 65%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.col h3{
+    color: #ee730d;
+
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+.col p{
+    color: grey;
+    font-size: 1rem;
+    padding: 0px 10px;
+    /* border: 1px solid firebrick; */
+}
+
+.col i{
+    margin-top: 10px;
+    font-size: 72px;
+    color: #ee730d;
+    /* border: 1px solid firebrick; */
+}
+.col .btn{
+    background-color: #2fbbbe;
+    color: white;
+    font-weight: 600;
+    width: 100px;
+    /* height: 80px; */
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    top: 25px;
+}
+
+footer{
+    width: 100%;
+    height: 15vh;
+    background-color: #ff7101    ;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Baloo Paaji 2', cursive;
+    
+}
+footer .right{
+    width: 25%;
+    display: flex;
+    
+    justify-content: center;   
+}
+footer .left{
+    margin-left: 15px;
+    color: white;
+    width: 25%;
+    padding: 15px -25px -10px -15px;
+    /* border: 1px solid black; */
+}
+.bottom{
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(195, 210, 224);
+    padding: 13px;
+}
+.bottom p{
+    font-size: 14px;
+    color: grey;
+}
